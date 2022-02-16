@@ -5,7 +5,6 @@ import {useState} from 'react';
 // https://openweathermap.org/img/wn/02d@2x.png
 
 export default function App() {
-
   Number.prototype.pad = function(size) {
     var s = String(this);
     while (s.length < (size || 2)) {s = "0" + s;}
